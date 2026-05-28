@@ -26,7 +26,7 @@ header h1 {
 
 .hero {
   text-align: center;
-  padding: 70px 20px;
+  padding: 80px 20px;
   background: linear-gradient(to bottom, #111, #300);
 }
 
@@ -62,12 +62,6 @@ section h2 {
   object-fit: cover;
   border: 4px solid #d00000;
   border-radius: 10px;
-}
-
-.tip {
-  margin-top: 15px;
-  color: #bbb;
-  font-size: 14px;
 }
 
 .battle {

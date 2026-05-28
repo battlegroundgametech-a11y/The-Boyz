@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #090909;
+  color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #001f3f;
+  text-align: center;
+  padding: 30px;
+  border-bottom: 5px solid #d00000;
+}
+
+header h1 {
+  font-size: 48px;
+  letter-spacing: 8px;
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  padding: 70px 20px;
+  background: linear-gradient(to bottom, #111, #300);
+}
+
+.hero h2 {
+  font-size: 64px;
+  color: #ffcc00;
+  margin-bottom: 15px;
+}
+
+section {
+  padding: 50px 10%;
+}
+
+section h2 {
+  color: #ffcc00;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  background: #111;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border: 4px solid #d00000;
+  border-radius: 10px;
+}
+
+.tip {
+  margin-top: 15px;
+  color: #bbb;
+  font-size: 14px;
+}
+
+.battle {
+  background: #1a0000;
+}
+
+.about {
+  background: #111;
+}
+
+.characters {
+  background: #0d0d0d;
+}
+
+.boys-section {
+  background: #160000;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: #181818;
+  border: 2px solid #d00000;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(208, 0, 0, 0.4);
+}
+
+.card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  color: #ffcc00;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #ddd;
+  font-size: 15px;
+}
+
+.compound {
+  background: #220000;
+  border-top: 2px solid #d00000;
+  border-bottom: 2px solid #d00000;
+}
+
+footer {
+  position: relative;
+  background: #700000;
+  color: white;
+  text-align: center;
+  padding: 60px 20px 30px;
+  font-size: 28px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.blood-drip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 100%;
+  background: repeating-radial-gradient(
+    circle at 20px 0,
+    #d00000 0,
+    #d00000 15px,
+    transparent 16px,
+    transparent 45px
+  );
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 34px;
+  }
+
+  .hero h2 {
+    font-size: 44px;
+  }
+
+  section {
+    padding: 40px 6%;
+  }
+}

@@ -159,3 +159,57 @@ footer {
     padding: 40px 6%;
   }
 }
+
+.signup {
+  background: linear-gradient(135deg, #170000, #0d0d0d);
+  border-top: 2px solid #d00000;
+  border-bottom: 2px solid #d00000;
+}
+
+.signup-form {
+  max-width: 520px;
+  background: #181818;
+  border: 2px solid #d00000;
+  border-radius: 14px;
+  padding: 24px;
+}
+
+.signup-form label {
+  display: block;
+  margin: 14px 0 6px;
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 13px 14px;
+  border-radius: 8px;
+  background: #090909;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+.signup-form button {
+  width: 100%;
+  margin-top: 18px;
+  padding: 14px;
+  border: 0;
+  border-radius: 8px;
+  background: #d00000;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-message.success {
+  color: #83ff83;
+}
+
+.signup-message.error {
+  color: #ff7777;
+}
+
+.signup-message.pending {
+  color: #ffcc00;
+}
